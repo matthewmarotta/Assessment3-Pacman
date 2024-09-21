@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: e2ae327d8f0de1f4d8c827f5a4adab99
+guid: c3ae82263656c59458313d9cf6cc2f4e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5678456057283954000
-    second: GhostGreen_0
+      213: -3117032942400779608
+    second: PacStudentFacingUp_0
   - first:
-      213: 5400765443276782853
-    second: GhostGreen_1
+      213: -449427702070428533
+    second: PacStudentFacingUp_1
   - first:
-      213: 1936507963823634849
-    second: GhostGreen_2
-  - first:
-      213: -4966435242027575262
-    second: GhostGreen_3
+      213: 8236954406463187460
+    second: PacStudentFacingUp_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GhostGreen_0
+      name: PacStudentFacingUp_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 35
-        width: 19
-        height: 23
+        x: 10
+        y: 32
+        width: 10
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,20 +120,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0554317c2bdedce40800000000000000
-      internalID: 5678456057283954000
+      spriteID: 8aac20bbd031eb4d0800000000000000
+      internalID: -3117032942400779608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostGreen_1
+      name: PacStudentFacingUp_1
       rect:
         serializedVersion: 2
-        x: 39
-        y: 35
-        width: 19
-        height: 23
+        x: 42
+        y: 32
+        width: 10
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50db7b16e8f53fa40800000000000000
-      internalID: 5400765443276782853
+      spriteID: b8c3fd9d2ef43c9f0800000000000000
+      internalID: -449427702070428533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostGreen_2
+      name: PacStudentFacingUp_2
       rect:
         serializedVersion: 2
-        x: 7
-        y: 3
-        width: 19
-        height: 23
+        x: 10
+        y: 0
+        width: 10
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,29 +162,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a93c68abbbdfda10800000000000000
-      internalID: 1936507963823634849
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GhostGreen_3
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 3
-        width: 19
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22817fee57da31bb0800000000000000
-      internalID: -4966435242027575262
+      spriteID: 40aa354346a8f4270800000000000000
+      internalID: 8236954406463187460
       vertices: []
       indices: 
       edges: []
@@ -195,7 +171,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ee1721af74b00e947bd63aee9af48a73
+    spriteID: e952a062b34fbde45870bf3dc2ec3ec4
     internalID: 0
     vertices: []
     indices: 
@@ -203,10 +179,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GhostGreen_0: 5678456057283954000
-      GhostGreen_1: 5400765443276782853
-      GhostGreen_2: 1936507963823634849
-      GhostGreen_3: -4966435242027575262
+      PacStudentFacingUp_0: -3117032942400779608
+      PacStudentFacingUp_1: -449427702070428533
+      PacStudentFacingUp_2: 8236954406463187460
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

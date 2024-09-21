@@ -61,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -71,11 +71,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,10 +127,10 @@ TextureImporter:
       name: GhostsScaredState_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 66
-        width: 21
-        height: 25
+        x: 7
+        y: 67
+        width: 19
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,10 +148,10 @@ TextureImporter:
       name: GhostsScaredState_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 66
-        width: 21
-        height: 25
+        x: 39
+        y: 67
+        width: 19
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: GhostsScaredState_2
       rect:
         serializedVersion: 2
-        x: 70
-        y: 66
-        width: 21
-        height: 25
+        x: 71
+        y: 67
+        width: 19
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,10 +190,10 @@ TextureImporter:
       name: GhostsScaredState_3
       rect:
         serializedVersion: 2
-        x: 6
-        y: 34
-        width: 21
-        height: 25
+        x: 7
+        y: 35
+        width: 19
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,10 +211,10 @@ TextureImporter:
       name: GhostsScaredState_4
       rect:
         serializedVersion: 2
-        x: 38
-        y: 34
-        width: 21
-        height: 25
+        x: 39
+        y: 35
+        width: 19
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +232,10 @@ TextureImporter:
       name: GhostsScaredState_5
       rect:
         serializedVersion: 2
-        x: 70
-        y: 34
-        width: 21
-        height: 25
+        x: 71
+        y: 35
+        width: 19
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: GhostsScaredState_6
       rect:
         serializedVersion: 2
-        x: 6
-        y: 2
-        width: 21
-        height: 25
+        x: 7
+        y: 3
+        width: 19
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,10 +274,10 @@ TextureImporter:
       name: GhostsScaredState_7
       rect:
         serializedVersion: 2
-        x: 38
-        y: 2
-        width: 21
-        height: 25
+        x: 39
+        y: 3
+        width: 19
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,10 +295,10 @@ TextureImporter:
       name: GhostsScaredState_8
       rect:
         serializedVersion: 2
-        x: 70
-        y: 2
-        width: 21
-        height: 25
+        x: 71
+        y: 3
+        width: 19
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,14 +315,23 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b3e1905471787f14ca63d237f49b3df4
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GhostsScaredState_0: 5569793892826754510
+      GhostsScaredState_1: 4062498867158261846
+      GhostsScaredState_2: -785550006267653020
+      GhostsScaredState_3: 2767448804734065900
+      GhostsScaredState_4: 2535853621917710517
+      GhostsScaredState_5: -3090188190256798039
+      GhostsScaredState_6: 716767815471567308
+      GhostsScaredState_7: 7206562363675786463
+      GhostsScaredState_8: -3606060676600293500
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
