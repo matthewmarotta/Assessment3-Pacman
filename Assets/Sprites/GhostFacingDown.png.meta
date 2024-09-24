@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 1295837a1b3147b469e8bd0f6a467701
+guid: 5b452c5fd0195574baa51aed4fbb134d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8719965121614041626
-    second: GhostRed_0
+      213: 8532833235128078597
+    second: GhostFacingDown_0
   - first:
-      213: -1267912965877497926
-    second: GhostRed_1
+      213: -3644535517791074549
+    second: GhostFacingDown_1
   - first:
-      213: -7805264735449056468
-    second: GhostRed_2
+      213: 5091792680522533188
+    second: GhostFacingDown_2
   - first:
-      213: 3105510017753157650
-    second: GhostRed_3
+      213: -6396592060185018788
+    second: GhostFacingDown_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,7 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GhostRed_0
+      name: GhostFacingDown_0
       rect:
         serializedVersion: 2
         x: 7
@@ -123,14 +123,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a12d997e31a830970800000000000000
-      internalID: 8719965121614041626
+      spriteID: 501d4735e96ba6670800000000000000
+      internalID: 8532833235128078597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostRed_1
+      name: GhostFacingDown_1
       rect:
         serializedVersion: 2
         x: 39
@@ -144,14 +144,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abf72ce00e7776ee0800000000000000
-      internalID: -1267912965877497926
+      spriteID: b07c4c291420c6dc0800000000000000
+      internalID: -3644535517791074549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostRed_2
+      name: GhostFacingDown_2
       rect:
         serializedVersion: 2
         x: 7
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2bfca1c3112ea390800000000000000
-      internalID: -7805264735449056468
+      spriteID: 449ca78277ea9a640800000000000000
+      internalID: 5091792680522533188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostRed_3
+      name: GhostFacingDown_3
       rect:
         serializedVersion: 2
         x: 39
@@ -186,8 +186,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 210189e48ecf81b20800000000000000
-      internalID: 3105510017753157650
+      spriteID: c5e769f696dba37a0800000000000000
+      internalID: -6396592060185018788
       vertices: []
       indices: 
       edges: []
@@ -195,7 +195,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a8d8739758b7d9f4c9ea9b6347d9af7e
+    spriteID: e9bd4ff825e72334bbf8e235c49c59e4
     internalID: 0
     vertices: []
     indices: 
@@ -203,10 +203,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GhostRed_0: 8719965121614041626
-      GhostRed_1: -1267912965877497926
-      GhostRed_2: -7805264735449056468
-      GhostRed_3: 3105510017753157650
+      GhostFacingDown_0: 8532833235128078597
+      GhostFacingDown_1: -3644535517791074549
+      GhostFacingDown_2: 5091792680522533188
+      GhostFacingDown_3: -6396592060185018788
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

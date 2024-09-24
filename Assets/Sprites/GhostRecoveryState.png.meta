@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 2e41e3a239b6c214b916a668cb6b8f3f
+guid: 2744b03ae12f3f34f8b8dcec95fc0467
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8468115439567281277
-    second: GhostBlue (1)_0
+      213: -1221630049706693768
+    second: GhostRecoveryState_0
   - first:
-      213: -8778188096905638471
-    second: GhostBlue (1)_1
+      213: 4914825261014718180
+    second: GhostRecoveryState_1
   - first:
-      213: 7984981409930201707
-    second: GhostBlue (1)_2
+      213: -7456264755270080943
+    second: GhostRecoveryState_2
   - first:
-      213: 9028730886909784829
-    second: GhostBlue (1)_3
+      213: -3099787107404581695
+    second: GhostRecoveryState_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,7 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GhostBlue (1)_0
+      name: GhostRecoveryState_0
       rect:
         serializedVersion: 2
         x: 7
@@ -123,14 +123,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7c9864502ac48570800000000000000
-      internalID: 8468115439567281277
+      spriteID: 87b2a4831f5eb0fe0800000000000000
+      internalID: -1221630049706693768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostBlue (1)_1
+      name: GhostRecoveryState_1
       rect:
         serializedVersion: 2
         x: 39
@@ -144,14 +144,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9bd80684f6c9d2680800000000000000
-      internalID: -8778188096905638471
+      spriteID: 4e616e7f887f43440800000000000000
+      internalID: 4914825261014718180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostBlue (1)_2
+      name: GhostRecoveryState_2
       rect:
         serializedVersion: 2
         x: 7
@@ -165,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6accfc394a50de60800000000000000
-      internalID: 7984981409930201707
+      spriteID: 156acd6c5b6068890800000000000000
+      internalID: -7456264755270080943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GhostBlue (1)_3
+      name: GhostRecoveryState_3
       rect:
         serializedVersion: 2
         x: 39
@@ -186,8 +186,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df2fad6c7ee7c4d70800000000000000
-      internalID: 9028730886909784829
+      spriteID: 1c470d79c085bf4d0800000000000000
+      internalID: -3099787107404581695
       vertices: []
       indices: 
       edges: []
@@ -195,7 +195,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 579886897cd1aee47a3bc1c4848486b9
+    spriteID: c8fe4907a08389548a53cd2322982201
     internalID: 0
     vertices: []
     indices: 
@@ -203,10 +203,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GhostBlue (1)_0: 8468115439567281277
-      GhostBlue (1)_1: -8778188096905638471
-      GhostBlue (1)_2: 7984981409930201707
-      GhostBlue (1)_3: 9028730886909784829
+      GhostRecoveryState_0: -1221630049706693768
+      GhostRecoveryState_1: 4914825261014718180
+      GhostRecoveryState_2: -7456264755270080943
+      GhostRecoveryState_3: -3099787107404581695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

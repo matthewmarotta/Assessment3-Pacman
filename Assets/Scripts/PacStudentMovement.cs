@@ -16,11 +16,8 @@ public class PacStudentMovement : MonoBehaviour
     void Update()
     {
         
-        animator.ResetTrigger("MoveLeft");
-        animator.ResetTrigger("MoveRight");
-        animator.ResetTrigger("MoveUp");
-        animator.ResetTrigger("MoveDown");
-
+       
+        /*
         bool isMoving = false;
 
         if (Input.GetKey(KeyCode.A))
@@ -59,7 +56,7 @@ public class PacStudentMovement : MonoBehaviour
         else
         {
             animator.SetBool("IsIdle", false);
-        }
+        }*/
     }
 }
 
