@@ -9,7 +9,7 @@ public class PacStudentMovement : MonoBehaviour
     private AudioSource pacstudentMovementSound;
 
 
-    private Vector3 StartPos, TopLeftPos, TopRightPos, BottomRightPos;
+    private Vector3 StartPos;
 
 
     [SerializeField] private float speed = 2.0f;
@@ -34,12 +34,9 @@ public class PacStudentMovement : MonoBehaviour
 
 
 
-        StartPos = new Vector3(-5.485f, 2.501f, 0f);
-        TopLeftPos = new Vector3(-5.485f, 6.546f, 0f);
-        TopRightPos = new Vector3(-0.484f, 6.546f, 0f);
-        BottomRightPos = new Vector3(-0.484f, 2.501f, 0f);
+        StartPos = new Vector3(-5.485f, 6.546f, 0f);
 
-        positions = new Vector3[] { StartPos, TopLeftPos, TopRightPos, BottomRightPos };
+        positions = new Vector3[] {StartPos};
 
         spriteTransform.position = StartPos;
         NextMovement();
@@ -50,16 +47,13 @@ public class PacStudentMovement : MonoBehaviour
     {
         float t = (Time.time - journeyStartTime) / travelTime;
         t = Mathf.Clamp01(t);
-        spriteTransform.position = Vector3.Lerp(originalPos, positions[currentTargetIndex], t);
+       // spriteTransform.position = Vector3.Lerp(originalPos, positions[currentTargetIndex], t);
         //for every 0.5 seconds play sound
-
-
 
 
         if (t >= 1.0f)
         {
             NextMovement();
-            AnimateMovement();
             PlaySound();
         }
 
@@ -83,7 +77,7 @@ public class PacStudentMovement : MonoBehaviour
     {
         float t = (Time.time - journeyStartTime) / travelTime;
         t = Mathf.Clamp01(t);
-        spriteTransform.position = Vector3.Lerp(originalPos, positions[currentTargetIndex], t);
+       // spriteTransform.position = Vector3.Lerp(originalPos, positions[currentTargetIndex], t);
 
         while (true)
         {
@@ -92,43 +86,6 @@ public class PacStudentMovement : MonoBehaviour
                 pacstudentMovementSound.Play();
             }
             yield return new WaitForSeconds(10.0f);
-        }
-    }
-
-    private void AnimateMovement()
-    {
-        Debug.Log("Animate Movement Called");
-        if (currentTargetIndex == 1)
-        {
-            animator.SetBool("isMovingLeft", false);
-            animator.SetBool("isMovingRight", false);
-            animator.SetBool("isMovingDown", false);
-            animator.SetBool("isMovingUp", true);
-            Debug.Log("Moving up");
-        }
-        else if (currentTargetIndex == 2)
-        {
-            animator.SetBool("isMovingUp", false);
-            animator.SetBool("isMovingLeft", false);
-            animator.SetBool("isMovingDown", false);
-            animator.SetBool("isMovingRight", true);
-            Debug.Log("Moving right");
-        }
-        else if (currentTargetIndex == 3)
-        {
-            animator.SetBool("isMovingUp", false);
-            animator.SetBool("isMovingRight", false);
-            animator.SetBool("isMovingLeft", false);
-            animator.SetBool("isMovingDown", true);
-            Debug.Log("Moving down");
-        }
-        else if (currentTargetIndex == 0)
-        {
-            animator.SetBool("isMovingUp", false);
-            animator.SetBool("isMovingRight", false);
-            animator.SetBool("isMovingDown", false);
-            animator.SetBool("isMovingLeft", true);
-            Debug.Log("Moving left");
         }
     }
 }
@@ -141,23 +98,35 @@ public class PacStudentMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
         {
-            animator.SetTrigger("MoveLeft");
-            isMoving = true;
+            animator.SetBool("isMovingUp", false);
+            animator.SetBool("isMovingRight", false);
+            animator.SetBool("isMovingDown", false);
+            animator.SetBool("isMovingLeft", true);
+            Debug.Log("Moving left");
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            animator.SetTrigger("MoveRight");
-            isMoving = true;
+            animator.SetBool("isMovingUp", false);
+            animator.SetBool("isMovingLeft", false);
+            animator.SetBool("isMovingDown", false);
+            animator.SetBool("isMovingRight", true);
+            Debug.Log("Moving right");
         }
         else if (Input.GetKey(KeyCode.W))
         {
-            animator.SetTrigger("MoveUp");
-            isMoving = true;
+            animator.SetBool("isMovingLeft", false);
+            animator.SetBool("isMovingRight", false);
+            animator.SetBool("isMovingDown", false);
+            animator.SetBool("isMovingUp", true);
+            Debug.Log("Moving up");
         }
         else if (Input.GetKey(KeyCode.S))
         {
-            animator.SetTrigger("MoveDown");
-            isMoving = true;
+            animator.SetBool("isMovingUp", false);
+            animator.SetBool("isMovingRight", false);
+            animator.SetBool("isMovingLeft", false);
+            animator.SetBool("isMovingDown", true);
+            Debug.Log("Moving down");
         }
         else if (Input.GetKey(KeyCode.Q))
         {
