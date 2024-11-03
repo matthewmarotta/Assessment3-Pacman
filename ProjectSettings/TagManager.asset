@@ -3,7 +3,27 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - bottomright
+  - topright
+  - topleft
+  - bottommiddle
+  - bottomleft
+  - leftmiddle
+  - rightmiddle
+  - topmiddle
+  - topleftmiddle
+  - toprightmiddle
+  - bottommiddleright
+  - bottommiddleleft
+  - righttopmiddle
+  - rightbottommiddle
+  - leftbottommiddle
+  - lefttopmiddle
+  - rightrightmiddletop
+  - rightrightmiddlebottom
+  - leftleftmiddlebottom
+  - leftleftmiddletop
   layers:
   - Default
   - TransparentFX
